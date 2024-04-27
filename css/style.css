@@ -124,6 +124,58 @@ header li:hover {
     color: var(--main-bg-color);
 }
 
+/****** Filtre ***********/
+.filter {
+    display: flex;
+    gap: 15px;
+}
+
+.filter-title {
+    font-size: 17px;
+    font-weight: 700;
+}
+
+.filter button {
+    display: flex;
+    gap: 10px;
+    border-radius: 25px;
+    align-items: center;
+    border: solid 2px #d9d9d9;
+    padding: 13px 19px 13px 19px;
+    background-color: white;
+}
+
+.button-filter {
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+.button-filter .fa-solid {
+    font-size: 129.4%;
+}
+
+/****** Infobar ***********/
+.infobar {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.infobar .icon {
+    display: flex;
+    height: 24px;
+    width: 24px;
+    border-radius: 50%;
+    border: solid 1px #d9d9d9;
+    align-items: center;
+    justify-content: center;
+}
+
+.fa-info {
+    font-size: 10px;
+}
+
 .section-title {
     margin: 0;
     font-size: 22px;
