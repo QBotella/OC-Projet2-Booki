@@ -31,6 +31,19 @@ a {
     text-decoration: none;
 }
 
+p {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+button {
+    cursor: pointer;
+}
+
+.visible-sm {
+    display: none;
+}
+
 /****** Header ***********/
 header {
     display: flex;
@@ -56,6 +69,59 @@ header li {
 header li:hover {
     border-color: var(--main-color);
     color: var(--main-color);
+}
+
+/****** Info group ***********/
+.info-group {
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+}
+
+/****** Headline ***********/
+.headline {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin-top: 30px;
+}
+
+/****** Formulaire de recherche ***********/
+.main-search {
+    display: flex;
+    text-align: center;
+}
+
+.search-logo {
+    border-radius: 15px 0px 0px 15px ;
+    padding: 14px 19px 15px 19px;
+    background-color: var(--main-bg-color);
+}
+
+.search-text {
+    font-size: 18px;
+    font-weight: 700;
+    text-align: center;
+    width: 180px;
+    border-bottom: solid var(--main-bg-color) 1px;
+    border-top: solid var(--main-bg-color) 1px;
+    border-left: solid transparent 1px;
+    border-right: solid transparent 1px;
+}
+
+.search-text:focus-visible {
+    outline: none;
+}
+
+.search-bar button {
+    font-size: 18px;
+    font-weight: 700;
+    text-align: center;
+    border-radius: 0px 15px 15px 0px;
+    border: solid var(--main-color) 1px;
+    padding: 14px 16px 14px 16px;
+    background-color: var(--main-color);
+    color: var(--main-bg-color);
 }
 
 .section-title {
@@ -84,6 +150,10 @@ header li:hover {
 
 .neutral-star {
     color: var(--main-bg-color)
+}
+
+.glass {
+    color: var(--main-bg-color);
 }
 
 /****** Hebergements And Populaires ***********/
