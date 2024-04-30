@@ -298,8 +298,8 @@ header li:hover {
 }
 
 .hebergements-cards .card-rating {
-    margin-bottom: 7px;
-    margin-top: auto;
+    padding: 8px 0 15px 0;
+    display: flex;
 }
 
 .hebergements .afficher {
@@ -354,7 +354,8 @@ header li:hover {
 }
 
 .populaires-cards .card-rating {
-    margin-bottom: 10px;
+    padding-bottom: 10px;
+    display: flex;
 }
 
 /****** Activitées ***********/
